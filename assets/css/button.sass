@@ -1,0 +1,29 @@
+// $button-padding-vertical: 12px !default
+// $button-padding-horizontal: 16px !default
+
+// The button sizes use mixins so they can be used at different breakpoints
+=button-small
+  border-radius: $radius-small
+  font-size: $size-small
+  padding: 6px 8px
+=button-normal
+  font-size: $size-normal
+=button-medium
+  font-size: $size-medium
+=button-large
+  font-size: $size-5
+  line-height: 24px
+  border-radius: 8px
+
+.button
+  padding-top: calc(0.55em - #{$button-border-width})
+  border: 1.5px solid #000
+  border-radius: 100px !important
+  &.is-small
+    +button-small
+  &.is-normal
+    +button-normal
+  &.is-medium
+    +button-medium
+  &.is-large
+    +button-large

@@ -1,0 +1,45 @@
+$size-1: 193.91px; // full
+$size-2: 155.76px; // full (mobile)
+$size-3: 70px; // form input text
+$size-4: 50px; // form input text (mobile)
+$size-5: 36px; // heading 1
+$size-6: 22px; // heading 1 (mobile)
+$size-7: 20px; // labels (desktop and mobile)
+$size-8: 14px;
+
+$sizes: ($size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 $size-8);
+
+$lh-1: 100;
+$lh-2: 125;
+$lh-3: 130;
+$lh-4: 140;
+$lh-5: 150;
+
+$line-heights: ($lh-1 $lh-2 $lh-3 $lh-4 $lh-5);
+
+// $gap: 32px;
+
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default;
+// 960px container + 4rem
+$desktop: 1280px + (2 * $gap) !default;
+// 1152px container + 4rem
+// $widescreen: 1152px + (2 * $gap) !default;
+$widescreen: 1376px + (2 * $gap) !default;
+// 1344px container + 4rem
+// $fullhd: 1280px + (2 * $gap);
+// 1680
+$fullhd: 1680px + (2 * $gap);
+
+$radius-small: 2px;
+$radius: 8px;
+$radius-large: 8px;
+
+$navbar-height: 6rem;
+$navbar-dropdown-radius: 0px;
+$navbar-dropdown-boxed-shadow: 0 0 0 rgba($black, 0.1), 0 0 0 0 rgba($black, 0.1);
+$navbar-dropdown-border-top: 0;
+
+$store-logo-height: 38px;
+
+// $body-line-height: 1;

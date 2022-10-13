@@ -1,0 +1,23 @@
+@import '~assets/stylesheets/main.styl'
+
+.responsive-background-image
+	background-position center bottom
+	background-repeat no-repeat
+	background-size cover
+	height 100%
+	animation none
+
+	picture, img
+		position absolute
+		width 0
+		height 0
+
+	&.loading
+		background linear-gradient(140deg, #464646, #8b8b8b, #464646)
+		background-size 600% 600%
+		animation loadAnimation 4s $easeInOutQuad infinite
+
+@keyframes loadAnimation
+	0%{background-position:0% 51%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 51%}

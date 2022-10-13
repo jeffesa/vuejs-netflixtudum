@@ -1,0 +1,80 @@
+{
+  "InternalPage": {
+    "description": "Auto imported from components/internal-page/index.vue"
+  },
+  "LazyInternalPage": {
+    "description": "Auto imported from components/internal-page/index.vue"
+  },
+  "NestedPage": {
+    "description": "Auto imported from components/internal-page/nested-page/index.vue"
+  },
+  "LazyNestedPage": {
+    "description": "Auto imported from components/internal-page/nested-page/index.vue"
+  },
+  "AppLink": {
+    "description": "Auto imported from components/shared/AppLink/index.vue"
+  },
+  "LazyAppLink": {
+    "description": "Auto imported from components/shared/AppLink/index.vue"
+  },
+  "BackgroundImage": {
+    "description": "Auto imported from components/shared/BackgroundImage/index.vue"
+  },
+  "LazyBackgroundImage": {
+    "description": "Auto imported from components/shared/BackgroundImage/index.vue"
+  },
+  "Breadcrumb": {
+    "description": "Auto imported from components/shared/Breadcrumb/index.vue"
+  },
+  "LazyBreadcrumb": {
+    "description": "Auto imported from components/shared/Breadcrumb/index.vue"
+  },
+  "CardSlider": {
+    "description": "Auto imported from components/shared/CardSlider/index.vue"
+  },
+  "LazyCardSlider": {
+    "description": "Auto imported from components/shared/CardSlider/index.vue"
+  },
+  "Flickity": {
+    "description": "Auto imported from components/shared/Flickity/index.vue"
+  },
+  "LazyFlickity": {
+    "description": "Auto imported from components/shared/Flickity/index.vue"
+  },
+  "IntersectionObserverElement": {
+    "description": "Auto imported from components/shared/IntersectionObserverElement/index.vue"
+  },
+  "LazyIntersectionObserverElement": {
+    "description": "Auto imported from components/shared/IntersectionObserverElement/index.vue"
+  },
+  "LazyImage": {
+    "description": "Auto imported from components/shared/LazyImage/index.vue"
+  },
+  "LazyLazyImage": {
+    "description": "Auto imported from components/shared/LazyImage/index.vue"
+  },
+  "Loading": {
+    "description": "Auto imported from components/shared/Loading/index.vue"
+  },
+  "LazyLoading": {
+    "description": "Auto imported from components/shared/Loading/index.vue"
+  },
+  "ResponsiveImage": {
+    "description": "Auto imported from components/shared/ResponsiveImage/index.vue"
+  },
+  "LazyResponsiveImage": {
+    "description": "Auto imported from components/shared/ResponsiveImage/index.vue"
+  },
+  "Share": {
+    "description": "Auto imported from components/shared/Share/index.vue"
+  },
+  "LazyShare": {
+    "description": "Auto imported from components/shared/Share/index.vue"
+  },
+  "VideoFrame": {
+    "description": "Auto imported from components/shared/VideoFrame/index.vue"
+  },
+  "LazyVideoFrame": {
+    "description": "Auto imported from components/shared/VideoFrame/index.vue"
+  }
+}

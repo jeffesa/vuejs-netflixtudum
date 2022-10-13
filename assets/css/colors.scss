@@ -1,0 +1,63 @@
+$primary: $white;
+$primary-invert: findColorInvert($primary);
+
+$secondary: #DE3039;
+$secondary-invert: $black;
+
+$yellow: #FFF200;
+$yellow-invert: findColorInvert($yellow);
+$green: #00A651;
+$green-invert: findColorInvert($green);
+$gray: #BDBEBF;
+$gray-invert: findColorInvert($gray);
+$pink: #F5ADCC;
+$pink-invert: findColorInvert($pink);
+$red: #E71922;
+$red-invert: findColorInvert($red);
+$blue: #105ABD;
+$blue-invert: findColorInvert($blue);
+$purple: #942680;
+$purple-invert: findColorInvert($purple);
+$gray-light: #FCF1E5;
+$gray-light-invert: findColorInvert($gray-light);
+$gray-dark: #C4C4C4;
+$gray-dark-invert: findColorInvert($gray-dark);
+
+
+$site-bg: $gray-light;
+$site-bg-invert: findColorInvert($site-bg);
+
+$colors: mergeColorMaps((
+  "white": ($white, $black),
+  "black": ($black, $white),
+  "primary": ($primary, $primary-invert),
+  "secondary": ($secondary, $secondary-invert),
+  "gray": ($gray, $gray-invert),
+  "yellow": ($yellow, $yellow-invert),
+  "green": ($green, $green-invert),
+  "pink": ($pink, $pink-invert),
+  "red": ($red, $red-invert),
+  "blue": ($blue, $blue-invert),
+  "purple": ($purple, $purple-invert),
+  "gray-light": ($gray-light, $gray-light-invert),
+  "site-bg": ($site-bg, $site-bg-invert),
+  ),$custom-colors);
+
+
+$text: $black;
+$text-strong: $black;
+
+$link: $black;
+// $link-hover: $blue-heavier;
+$link-invert: $white;
+$link-focus-border: $primary;
+$link-hover: $black;
+
+$footer-background-color: $black;
+// $footer-color: $blue-gray-900;
+$footer-padding: 0rem 1.5rem 6rem;
+$button-border-color: black;
+$button-border-width: 1.5px;
+$button-padding-horizontal: 1.3em;
+$button-background-color: #FCF1E5;
+$button-color: $black;

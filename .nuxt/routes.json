@@ -1,0 +1,23 @@
+[
+  {
+    "name": "reference",
+    "path": "/reference",
+    "component": "/Users/jeffesa/Documents/the9level/101.lamark.netflixtudum/frontend/pages/reference.vue",
+    "chunkName": "pages/reference",
+    "_name": "_fdb76d9c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/jeffesa/Documents/the9level/101.lamark.netflixtudum/frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3d92528e"
+  },
+  {
+    "name": "index-switch",
+    "path": "/:index/:switch?",
+    "component": "/Users/jeffesa/Documents/the9level/101.lamark.netflixtudum/frontend/pages/_index/_switch.vue",
+    "chunkName": "pages/_index/_switch",
+    "_name": "_08bf7dc0"
+  }
+]
